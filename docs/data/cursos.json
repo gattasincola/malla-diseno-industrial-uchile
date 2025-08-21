@@ -1,0 +1,67 @@
+{
+  "carrera": {
+    "nombre": "Diseño",
+    "mencion": "Industrial y Servicios",
+    "institucion": "Universidad de Chile",
+    "creditos_totales": 405,
+    "duracion_semestres": 10
+  },
+  "cursos": [
+    {"id":"PROY1","nombre":"Proyecto I","semestre":1,"tipo":"Proyectual","creditos":12,"orden":1},
+    {"id":"CV1","nombre":"Configuración visual I","semestre":1,"tipo":"Morfología","creditos":6,"orden":2},
+    {"id":"PP1","nombre":"Procesos y prototipos I","semestre":1,"tipo":"Ciencia y Tecnología","creditos":6,"orden":3},
+    {"id":"DESOC","nombre":"Diseño, estética y sociedad","semestre":1,"tipo":"Teoría e Investigación","creditos":3,"orden":4},
+    {"id":"ING1","nombre":"Inglés 1","semestre":1,"tipo":"Idioma / Transversal","creditos":3,"orden":5},
+    {"id":"FAU_T1","nombre":"Transversal FAU","semestre":1,"tipo":"Idioma / Transversal","creditos":3,"orden":6},
+
+    {"id":"PROY2","nombre":"Proyecto II","semestre":2,"tipo":"Proyectual","creditos":12,"orden":1,"prerrequisitos":["Proyecto I"]},
+    {"id":"CV2","nombre":"Configuración visual II","semestre":2,"tipo":"Morfología","creditos":6,"orden":2,"prerrequisitos":["Configuración visual I"]},
+    {"id":"PP2","nombre":"Procesos y prototipos II","semestre":2,"tipo":"Ciencia y Tecnología","creditos":6,"orden":3,"prerrequisitos":["Procesos y prototipos I"]},
+    {"id":"HYC","nombre":"Historia y cultura del diseño","semestre":2,"tipo":"Teoría e Investigación","creditos":3,"orden":4},
+    {"id":"ING2","nombre":"Inglés 2","semestre":2,"tipo":"Idioma / Transversal","creditos":3,"orden":5},
+    {"id":"DEP","nombre":"Deportivo Transversal FAU","semestre":2,"tipo":"Idioma / Transversal","creditos":3,"orden":6},
+
+    {"id":"PROY3","nombre":"Proyecto III","semestre":3,"tipo":"Proyectual","creditos":12,"orden":1,"prerrequisitos":["Proyecto II"]},
+    {"id":"FIS","nombre":"Física aplicada al diseño","semestre":3,"tipo":"Ciencia y Tecnología","creditos":3,"orden":2},
+    {"id":"MAT","nombre":"Matemáticas aplicadas al diseño","semestre":3,"tipo":"Ciencia y Tecnología","creditos":3,"orden":3},
+    {"id":"TCD","nombre":"Teoría y crítica del diseño","semestre":3,"tipo":"Teoría e Investigación","creditos":3,"orden":4},
+    {"id":"RC","nombre":"Representación conceptual","semestre":3,"tipo":"Comunicación y Gestión","creditos":3,"orden":5},
+    {"id":"ING3","nombre":"Inglés 3","semestre":3,"tipo":"Idioma / Transversal","creditos":3,"orden":6},
+
+    {"id":"PROY4","nombre":"Proyecto IV","semestre":4,"tipo":"Proyectual","creditos":12,"orden":1,"prerrequisitos":["Proyecto III"]},
+    {"id":"LENG","nombre":"Lenguaje y significación","semestre":4,"tipo":"Comunicación y Gestión","creditos":3,"orden":2},
+    {"id":"HC","nombre":"Herramientas computacionales","semestre":4,"tipo":"Comunicación y Gestión","creditos":3,"orden":3},
+    {"id":"ERGO","nombre":"Ergonomía y factores humanos","semestre":4,"tipo":"Ciencia y Tecnología","creditos":3,"orden":4},
+    {"id":"ING4","nombre":"Inglés 4","semestre":4,"tipo":"Idioma / Transversal","creditos":3,"orden":5},
+
+    {"id":"PROY5","nombre":"Proyecto V","semestre":5,"tipo":"Proyectual","creditos":18,"orden":1,"prerrequisitos":["Proyecto IV"]},
+    {"id":"MRD","nombre":"Modelamiento y representación digital","semestre":5,"tipo":"Morfología","creditos":6,"orden":2},
+    {"id":"MTPF","nombre":"Materiales, tecnologías y procesos de fabricación","semestre":5,"tipo":"Ciencia y Tecnología","creditos":6,"orden":3},
+    {"id":"ELE1","nombre":"Electivo (Industrial y Servicios)","semestre":5,"tipo":"Electivo","creditos":3,"orden":4},
+
+    {"id":"PROY6","nombre":"Proyecto VI","semestre":6,"tipo":"Proyectual","creditos":18,"orden":1,"prerrequisitos":["Proyecto V"]},
+    {"id":"DVI","nombre":"Diseño y visualización de información","semestre":6,"tipo":"Comunicación y Gestión","creditos":6,"orden":2},
+    {"id":"DEPU","nombre":"Diseño editorial y publicación","semestre":6,"tipo":"Comunicación y Gestión","creditos":6,"orden":3},
+    {"id":"ELE2","nombre":"Electivo (Industrial y Servicios)","semestre":6,"tipo":"Electivo","creditos":3,"orden":4},
+
+    {"id":"PROY7","nombre":"Proyecto VII","semestre":7,"tipo":"Proyectual","creditos":26,"orden":1,"prerrequisitos":["Proyecto VI"]},
+    {"id":"DIX","nombre":"Diseño de interacción y experiencia","semestre":7,"tipo":"Comunicación y Gestión","creditos":6,"orden":2},
+    {"id":"PCES","nombre":"Prototipado y comunicación de experiencias y servicios","semestre":7,"tipo":"Comunicación y Gestión","creditos":6,"orden":3},
+    {"id":"ELE3","nombre":"Electivo (Industrial y Servicios)","semestre":7,"tipo":"Electivo","creditos":3,"orden":4},
+
+    {"id":"PROY8","nombre":"Proyecto de título I","semestre":8,"tipo":"Práctica / Título","creditos":12,"orden":1,"prerrequisitos":["Proyecto VII"]},
+    {"id":"COMPROY","nombre":"Comunicación del proyecto de diseño","semestre":8,"tipo":"Comunicación y Gestión","creditos":3,"orden":2},
+    {"id":"GESTPROY","nombre":"Gestión del proyecto de diseño","semestre":8,"tipo":"Comunicación y Gestión","creditos":3,"orden":3},
+    {"id":"IINV","nombre":"Introducción a la investigación en el diseño","semestre":8,"tipo":"Teoría e Investigación","creditos":3,"orden":4},
+    {"id":"PQ","nombre":"Métodos de investigación cuantitativos","semestre":8,"tipo":"Teoría e Investigación","creditos":3,"orden":5},
+    {"id":"PL","nombre":"Práctica laboral","semestre":8,"tipo":"Práctica / Título","creditos":7,"orden":6},
+
+    {"id":"PROY9","nombre":"Proyecto de título II","semestre":9,"tipo":"Práctica / Título","creditos":12,"orden":1},
+    {"id":"PC","nombre":"Portafolio e inducción laboral","semestre":9,"tipo":"Comunicación y Gestión","creditos":4,"orden":2},
+    {"id":"PI","nombre":"Seminario de licenciatura I","semestre":9,"tipo":"Teoría e Investigación","creditos":9,"orden":3},
+    {"id":"PRACT","nombre":"Práctica profesional","semestre":9,"tipo":"Práctica / Título","creditos":9,"orden":4},
+
+    {"id":"PROY10","nombre":"Proyecto de título III","semestre":10,"tipo":"Práctica / Título","creditos":12,"orden":1},
+    {"id":"PII","nombre":"Seminario de licenciatura II","semestre":10,"tipo":"Teoría e Investigación","creditos":9,"orden":2}
+  ]
+}
