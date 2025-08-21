@@ -35,3 +35,5 @@ plugins:
 
 extra_css:
   - assets/css/extra.css
+logo: assets/logos/escudo-uchile-vertical-color.jpg
+favicon: assets/logos/escudo-uchile-vertical-color.jpg
