@@ -8,8 +8,8 @@ nav:
 theme:
   name: material
   language: es
-  logo: assets/logos/uchile.png
-  favicon: assets/logos/uchile.png
+ logo: assets/logos/escudo-uchile-vertical-color.jpg
+favicon: assets/logos/escudo-uchile-vertical-color.jpg
   palette:
     - scheme: default
       primary: custom
