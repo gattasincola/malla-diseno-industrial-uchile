@@ -29,7 +29,8 @@ title: Malla
 <div id="grid" class="grid"></div>
 
 <script>
-const DATA_URL = '/data/cursos.json';
+const DATA_URL = '../data/cursos.json';
+
 
 
 const STORAGE_KEY = 'mallaUChileEstados_v1';
