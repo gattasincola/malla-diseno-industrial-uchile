@@ -33,7 +33,7 @@ const DATA_URL = 'data/cursos.json';
 const STORAGE_KEY = 'mallaUChileEstados_v1';
 const ESTADOS = ['Pendiente','En curso','Aprobado'];
 const $ = (s)=>document.querySelector(s);
-const norm = (s)=> (s||'').toLowerCase().normalize('NFD').replace(/\\p{Diacritic}/gu,'');
+const norm = (s)=> (s||'').toLowerCase().normalize('NFD').replace(/\p{Diacritic}/gu,'');
 
 function load(){ try{return JSON.parse(localStorage.getItem(STORAGE_KEY)||'{}')}catch(e){return {}}}
 function save(m){ localStorage.setItem(STORAGE_KEY, JSON.stringify(m)) }
@@ -97,6 +97,12 @@ function renderGrid(data){
 }
 function bind(data){
   document.getElementById('q').addEventListener('input', ()=>renderGrid(data));
+  document.getElementById('sem').addEventListener('change', ()=>renderGrid(data));
+  document.getElementById('tipo').addEventListener('change', ()=>renderGrid(data));
+}
+init();
+</script>
+
   document.getElementById('sem').addEventListener('change', ()=>renderGrid(data));
   document.getElementById('tipo').addEventListener('change', ()=>renderGrid(data));
 }
