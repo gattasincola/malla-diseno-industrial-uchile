@@ -1,0 +1,37 @@
+site_name: Malla – Diseño Industrial U. de Chile
+site_description: Malla curricular interactiva – mención Industrial y Servicios
+repo_name: malla-diseno-industrial-uchile
+nav:
+  - Inicio: index.md
+  - Malla: malla.md
+
+theme:
+  name: material
+  language: es
+  logo: assets/logos/uchile.png
+  favicon: assets/logos/uchile.png
+  palette:
+    - scheme: default
+      primary: custom
+      accent: custom
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - content.code.copy
+    - search.suggest
+    - search.highlight
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - footnotes
+  - md_in_html
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tasklist
+
+plugins:
+  - search
+
+extra_css:
+  - assets/css/extra.css
