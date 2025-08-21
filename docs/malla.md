@@ -31,6 +31,7 @@ title: Malla
 <script>
 const DATA_URL = '/data/cursos.json';
 
+
 const STORAGE_KEY = 'mallaUChileEstados_v1';
 const ESTADOS = ['Pendiente','En curso','Aprobado'];
 const $ = (s)=>document.querySelector(s);
