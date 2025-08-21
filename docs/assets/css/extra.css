@@ -1,0 +1,33 @@
+:root{
+  --c1:#95c22a;
+  --c2:#b5549b;
+  --c3:#d286a6;
+  --c4:#45977d;
+  --cb:#1d1d1b;
+  --cw:#ffffff;
+}
+
+.controls{display:flex;gap:1rem;flex-wrap:wrap;margin:1rem 0}
+.controls label{font-weight:600;}
+.controls input,.controls select{margin-left:.5rem}
+
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:12px}
+
+.card{border:2px solid var(--cb);border-radius:14px;padding:12px;cursor:pointer;user-select:none;background:var(--cw);box-shadow:0 2px 0 rgba(0,0,0,.08)}
+.card input{display:none}
+.card h3{margin:.4rem 0 0;font-size:1.05rem}
+.card .meta{display:flex;gap:.5rem;margin:.35rem 0 0}
+.pill{border:1px solid var(--cb);border-radius:999px;padding:.08rem .5rem;font-size:.75rem}
+.card-top{display:flex;justify-content:space-between;align-items:center}
+.badge{font-size:.75rem;font-weight:700;padding:.2rem .5rem;border-radius:6px;border:1.5px solid var(--cb)}
+.creditos{font-size:.8rem;opacity:.8}
+.pre{margin-top:.25rem;font-size:.8rem;opacity:.9}
+
+.card.state-0{background:linear-gradient(0deg, #fff, #fff)}
+.card.state-0 .badge{background:#fff}
+.card.state-1{background:linear-gradient(0deg, rgba(181,84,155,.08), #fff)}
+.card.state-1 .badge{background:rgba(181,84,155,.18)}
+.card.state-2{background:linear-gradient(0deg, rgba(149,194,42,.14), #fff)}
+.card.state-2 .badge{background:rgba(149,194,42,.28)}
+
+.md-nav__title, .md-header{background:var(--cb);color:var(--cw)}
